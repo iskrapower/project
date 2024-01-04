@@ -9,7 +9,7 @@ dp = Dispatcher(bot)
 async def start(message):
     markup = types.ReplyKeyboardMarkup()
     markup.add(types.KeyboardButton('Открыть веб страницу', web_app=WebAppInfo(
-        url='https://github.com/index.html')))
+        url='https://iskrapower.github.io/project')))
     await message.answer('Привет, мой друг!', reply_markup=markup)
 
 
